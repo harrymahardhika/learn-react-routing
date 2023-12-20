@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar .active {
+  @apply text-white;
+}
+
+nav .active {
+  @apply text-blue-600;
+}
+
+.brand .active {
+  @apply text-black;
+}
